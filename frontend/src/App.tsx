@@ -1,9 +1,22 @@
-
+import Header from "./components/Header/Header";
+import SalesCard from "./components/SalesCard/SalesCard";
 
 function App() {
- return(
-  <h1>SystmeReg</h1>
- )
+  return (
+    <>
+      <Header />
+
+      <main>
+        <section id="sales">
+          <div className="systemreg-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+
+
+    </>
+  );
 }
 
-export default App
+export default App;
